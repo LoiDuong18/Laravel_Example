@@ -42,7 +42,7 @@
 
             .content {
                 text-align: center;
-                padding-bottom: 70vh;
+                padding-bottom: 60vh;
             }
 
             .title {

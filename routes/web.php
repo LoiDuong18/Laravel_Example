@@ -20,3 +20,7 @@ route::get('customers','CustomersController@list');
 //     return view('welcome');
 // });
 Route::get("/site/{site}","CustomersController@index");
+
+// Route::get('dashboard', function () {
+//     return redirect('home');
+// });

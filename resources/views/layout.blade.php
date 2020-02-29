@@ -25,7 +25,7 @@
           <a class="nav-link" href="customers">Customers list</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">welcome</a>
+          <a class="nav-link" href="/example/public">welcome</a>
         </li>
       </ul>
       <div class="container">
