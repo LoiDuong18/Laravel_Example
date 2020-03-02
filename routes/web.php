@@ -20,6 +20,9 @@ route::get('customers','CustomersController@list');
 //     return view('welcome');
 // });
 Route::get("/site/{site}","CustomersController@index");
+// route::view('login','login');
+Route::get('login','DangNhap@create');
+Route::post('login','DangNhap@store');
 
 // Route::get('dashboard', function () {
 //     return redirect('home');
