@@ -13,6 +13,9 @@
     <body>
       <ul class="nav">
         <li class="nav-item">
+          <a class="nav-link" href="/example/public">welcome</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" href="home">Home</a>
         </li>
         <li class="nav-item">
@@ -25,7 +28,7 @@
           <a class="nav-link" href="customers">Customers list</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/example/public">welcome</a>
+          <a class="nav-link" href="login">login</a>
         </li>
       </ul>
       <div class="container">

@@ -1,28 +1,32 @@
-@extends('layout')
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    @extends('layout')
 
-@section('content')
-  <h1>Welcome Come To</h1>
+    @section('content')
+    <style media="screen">
+      .img{
+        font-size: 50px;
+      }
+    </style>
+      <h1>Welcome Come To</h1>
 
-  <p>Dương Văn Lợi</p>
+      <p>Dương Văn Lợi</p>
 
-  <div class="class">
-    <a href="https://www.facebook.com/Caythongcodon.danang/">Link</a>
-  </div>
-  <form method="get">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+      <div class="class">
+        <a href="https://www.facebook.com/Caythongcodon.danang/">Link</a>
+      </div>
+      <ul>
+        <!-- @foreach($errors->all() as $e)
+        <li>{{$e}}</li>
+        @endforeach -->
+      </ul>
 
-@endsection
+    @endsection
+
+  </body>
+</html>
