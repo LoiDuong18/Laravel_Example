@@ -19,13 +19,13 @@
           <a class="nav-link active" href="home">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="customers">Customers list</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="customers">Customers list</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login">login</a>
